@@ -1,0 +1,16 @@
+Package: datoselectorales
+Type: Package
+Title: Datos electorales de Chile
+Version: 0.1.0
+Authors@R: person("Soledad", "Araya", email = "snaraya@uc.cl",
+                  role = c("aut", "cre"))
+Description: Contiene los datos electorales de Chile. Por ahora, sólo los 
+    datos de las elecciones presidenciales. Los datos fueron obtenidos de la
+    página del SERVEL Chile. La idea es no tener que recurrir nuevamente
+    al Excel.
+License: CC0
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 2.10)
+RoxygenNote: 7.1.1
